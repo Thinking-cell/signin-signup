@@ -44,7 +44,7 @@
             </fieldset>
 
         </form>
-        <h2><a style="margin-right: 20px;" href="html/signup.html"> Playing First Time? </a><a href='php/highscores.php' style='color:#c1624a; background-color:#fedc01;'> High Scores</a></h2>
+        <h2><a style="margin-right: 20px;" href="php/signup.php"> Playing First Time? </a><a href='php/highscores.php' style='color:#c1624a; background-color:#fedc01;'> High Scores</a></h2>
         
         
        
