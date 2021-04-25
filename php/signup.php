@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+
+
+include "connect.php";
+
+
+?><!DOCTYPE html>
 <html>
 
 <head>
@@ -78,7 +84,7 @@
 
             </fieldset>
         </form>
-        <h3><a href="../index.html"> Go Back to Login.. </a></h3>
+        <h3><a href="../index.php"> Go Back to Login.. </a></h3>
             
 
     </div>

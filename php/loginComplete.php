@@ -80,7 +80,7 @@ if (
                     
                         <h3>
                             
-                             <a href='../php/logout.php'>Log Out</a>
+                             <a href='logout.php'>Log Out</a>
                             
                         </h3>
                     </div>";
@@ -94,7 +94,7 @@ if (
                 session_destroy();
                 echo "<div class='messageBox'>
                 <p>Credetials doesn't met or Account Doesn't Exists! </p>
-                <br><a href='../index.html'> Go Back to Login...</a>
+                <br><a href='../index.php'> Go Back to Login...</a>
             </div>";
             }
 
@@ -104,7 +104,7 @@ if (
             session_destroy();
             echo "<div class='messageBox'>
                 <p> ERROR while Reading db </p>
-                <br><a href='../index.html'> Go Back to Login...</a>
+                <br><a href='../index.php'> Go Back to Login...</a>
             </div>";
         }
 
@@ -115,7 +115,7 @@ if (
         echo "<div class='messageBox'>
 
             <p> Bad Login Attempt!</p><br>
-            <a href='../index.html'> Go Back...</a>
+            <a href='../index.php'> Go Back...</a>
         </div>";
     }
     ?>

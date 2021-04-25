@@ -39,7 +39,7 @@ session_destroy();
         echo "<div class='messageBox'>
 
         <p> You are now Logged Out!</p><br>
-        <a href='../index.html'>To Login</a>
+        <a href='../index.php'>To Login</a>
     </div>";
     ?>
 </body>

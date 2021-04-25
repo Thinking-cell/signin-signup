@@ -42,7 +42,7 @@ session_start();
         {
             die(" <div class='messageBox'>
             <p> Session not active, Try logging in again </p>
-            <br><a href='../index.html'> Go Back to Login...</a>
+            <br><a href='../index.php'> Go Back to Login...</a>
             </div>");
         }
     ?>
@@ -98,7 +98,7 @@ session_start();
         <div class="buttons" id="PlayAgain" style="display: none;">
             <button style="padding: 15px; font-size:1.3em;" id="playButton"   >Play Again</button>
         </div>
-        <h3> <a href="../php/logout.php"> Log Out</a></h3>
+        <h3> <a href="logout.php"> Log Out</a></h3>
         
     </div>
 

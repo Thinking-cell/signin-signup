@@ -75,7 +75,7 @@ if (
             {   
                 echo "<div class='messageBox'>
                 <p> There was a problem while creating your account, Please try again. </p>
-                <br><a href='../html/signup.html'> Go Back to SignUp...</a>
+                <br><a href='signup.php'> Go Back to SignUp...</a>
             </div>";
             }
             
@@ -89,7 +89,7 @@ if (
             
             echo "<div class='messageBox'>
                 <p> Account Already Exists </p>
-                <br><a href='../index.html'> Go Back to Login...</a>
+                <br><a href='../index.php'> Go Back to Login...</a>
             </div>";
         }
 
@@ -99,7 +99,7 @@ if (
         echo "<div class='messageBox'>
 
             <p> Bad Signup Attempt!</p><br>
-            <a href='../index.html'> Go Back...</a>
+            <a href='../index.php'> Go Back...</a>
         </div>";
     }
     ?>

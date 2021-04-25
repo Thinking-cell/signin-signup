@@ -87,7 +87,7 @@ include "connect.php";
     }
 
 
-    echo "<h3><a href='../index.html'> Login</a></h3>";
+    echo "<h3><a href='../index.php'> Login</a></h3>";
 
         
          
