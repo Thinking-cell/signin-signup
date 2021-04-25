@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+
+
+
+
+
+?><!DOCTYPE html>
 <html>
 <!--
     main index page to get user data and log them into their accounts
